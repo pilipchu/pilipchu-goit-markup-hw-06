@@ -35,7 +35,7 @@
             </li>
           </ul>
         </nav>
-        <button class="mobil-nav-manu-open-btn" data-modal-open type="button">
+        <button class="mobil-nav-manu-open-btn" type="button">
           <svg class="icon-mobil-menu" width="22" height="24">
             <use
               class="icon-burger"
@@ -64,7 +64,9 @@
       <section class="first-sector">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" data-modal-open type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="second-section">
@@ -580,7 +582,6 @@
         </div>
       </section>
     </main>
-    <!--
     <footer class="footer">
       <div class="container last">
         <div class="flex-floor">
@@ -646,11 +647,10 @@
         </div>
       </div>
     </footer>
-    -->
-    <!--
-    <div class="backdrop visually-hidden">
+
+    <div class="backdrop is-hidden" data-modal>
       <div class="form-hero">
-        <button class="close-btn" type="button">
+        <button class="close-btn" data-modal-close type="button">
           <svg class="icon-btn-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -727,18 +727,19 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privacy" href="">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="privacy" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
-    -->
-    <div class="mobile-menu-wrapper is-open" data-modal>
+    <div class="mobile-menu-wrapper">
       <div class="mobil-container-menu">
-        <button class="mobil-menu-btn-close" data-modal-close type="button">
+        <button class="mobil-menu-btn-close" type="button">
           <svg class="mobil-menu-btn-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
