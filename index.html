@@ -35,7 +35,7 @@
             </li>
           </ul>
         </nav>
-        <button class="mobil-nav-manu-open-btn" type="button">
+        <button class="mobil-nav-manu-open-btn js-open-menu" type="button">
           <svg class="icon-mobil-menu" width="22" height="24">
             <use
               class="icon-burger"
@@ -743,21 +743,27 @@
         </form>
       </div>
     </div>
-    <div class="mobile-menu-wrapper">
+    <div class="mobile-menu-wrapper js-menu-container">
       <div class="mobil-container-menu">
-        <button class="mobil-menu-btn-close" type="button">
+        <button class="mobil-menu-btn-close js-close-menu" type="button">
           <svg class="mobil-menu-btn-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <ul class="mobil-nav-list">
           <li>
-            <a class="mobil-menu-link first-link" href="./index.html">Studio</a>
+            <a
+              class="mobil-menu-link first-link header-link"
+              href="./index.html"
+              >Studio</a
+            >
           </li>
           <li>
-            <a class="mobil-menu-link" href="#portfolio">Portfolio</a>
+            <a class="mobil-menu-link header-link" href="#portfolio"
+              >Portfolio</a
+            >
           </li>
-          <li><a class="mobil-menu-link" href="">Contacts</a></li>
+          <li><a class="mobil-menu-link header-link" href="">Contacts</a></li>
         </ul>
         <div class="mobil-container-social-menu">
           <address>
@@ -811,6 +817,12 @@
         </div>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
