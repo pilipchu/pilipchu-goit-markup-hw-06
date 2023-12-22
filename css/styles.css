@@ -121,7 +121,7 @@ ul {
     transition: transform 250ms ease-in-out;
   }
 
-  .is-open {
+  .mobile-menu-wrapper.is-open {
     transform: translateX(0%);
   }
 
